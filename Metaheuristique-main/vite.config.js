@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/react-swc'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/Metaheuristique/',
   plugins: [react()],
+  base: '/projet_bin_packing_2D/', // <-- CRITICAL: Add this line
 })
-

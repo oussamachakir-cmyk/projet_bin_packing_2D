@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/opticut-2d/' // <--- Assurez-vous que c'est écrit exactement comme ça
+  base: '/projet_bin_packing_2D/', // <-- CRITICAL: Add this line
 })

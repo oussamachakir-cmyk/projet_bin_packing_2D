@@ -3,5 +3,5 @@ import react from '@vitejs/react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/projet_bin_packing_2D/', // <-- CRITICAL: Add this line
+  base: '/projet_bin_packing_2D/',
 })
